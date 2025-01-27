@@ -125,3 +125,35 @@ nav button:hover {
 .bars {
   display: none;
 }
+
+@media (max-width: 576px) {
+  header {
+    margin: 0.75rem 1rem;
+  }
+  .logo h1 {
+    display: none;
+  }
+
+  .logo img {
+    width: 46px;
+    height: 46px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bars {
+    display: flex;
+    width: 80px;
+    height: 80px;
+  }
+}
