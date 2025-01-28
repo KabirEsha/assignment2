@@ -39,7 +39,7 @@ a {
 }
 
 main {
-  background: url("../assets/bg.png"),
+  background: url("./assets/bg.png"),
     linear-gradient(360deg, hsla(38, 99%, 50%, 0.3) 0%, white 30%);
 }
 .hr {
@@ -156,4 +156,92 @@ nav button:hover {
     width: 80px;
     height: 80px;
   }
+  .hero {
+    flex-direction: column-reverse;
+    margin: 0.75rem 1rem;
+    gap: 1.25rem;
+  }
+
+  .hero-content {
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .hero-content button {
+    font-size: 1rem;
+    width: 8.3125rem;
+    height: 42px;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .hr {
+    display: block;
+    color: var(--orange);
+    background-color: var(--orange);
+    height: 2px;
+  }
+}
+.hero {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-content h2 {
+  font-size: 3.5rem;
+}
+
+.empowering {
+  color: var(--orange);
+}
+.vision {
+  color: var(--sky-blue);
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+}
+
+.hero-content button {
+  width: 12.3125rem;
+  height: 50px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: black;
+}
+.hero-content button:hover {
+  cursor: pointer;
+  background-color: rgba(217, 44, 44, 0.792);
+}
+marquee {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: var(--cyan);
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
 }
